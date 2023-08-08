@@ -8,7 +8,7 @@ from twilio.rest import Client
 # Datos de autentificación
 account_sid = environ['TWILIOSID']
 auth_token = environ['TWILIOAUTHTOKEN']
-wanbr = environ['BOTNBR']
+wanbr = environ['BOTNBR'] # usar formato: whatsapp:+nmbr 
 
 client = Client(account_sid, auth_token) # cliente para mandar mensaje
 
