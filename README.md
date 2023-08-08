@@ -4,6 +4,7 @@
 
 Este script manda el mensaje escrito en el archvio "sms.txt" a cada uno de los números colocados en el archivo "pnbrs.csv".
 Es necesario tener una cuenta en Twilio con al menos un sender de WA habilitado así como preconfigurar el account_sid y el auth_token de twilio en las variables del sistema.
+El mensaje debe de coincidir con las plantillas previamente aprobadas en Twilio.
 
 
 ## Instrucciones
